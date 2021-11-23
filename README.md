@@ -1,25 +1,30 @@
-## The Golden Rule: 
+# Deliverable 04 - Mushroom Festival
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
+[Buggy Mushroom Festival](https://github.com/alchemycodelab/buggy-js-mushroom-festival)
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
+### Live Example:
+https://alchemycodelab.github.io/js-mushroom-festival/
 
-## Making a plan
+![](./assets/mushroom-festival.png)
 
-1) **Make a drawing of your app. Simple "wireframes"**
-1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
-1) **For each HTML element ask: Why do I need this?** 
-1) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
-1) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
-1) **Think about how to validate each of your features according to a Definition of Done**
-1) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+# Mushroom Festival
 
-Additional considerations:
-- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
-- Consider your data model. 
-  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need? 
-  - What are the key/value pairs? 
-  - What arrays might you need? 
-  - What needs to live in a persistence layer?
-- Is there some state we need to initialize?
-- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+| User should be able to . . .                                                         |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo|     1 |
+
+| Events                                                                                |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| On load, see some mushrooms and default friends on the page                                |        1 |
+| On clicking the 'forage' button, launch an alert telling the user if they found a mushroom. 50% of the time, the user should succeed.  | 1 |
+| The number of mushrooms should be visible on the table.                                      |        1 |
+| On clicking a friend, a mushroom should vanish from the table, and the friend should become more satisfied. Satisfaction level should be visible to the user as different emojis |     1 |
+| On clicking a friend, if that friend is completely satisfied, they can eat no more mushrooms. Also, if you try to feed a friend and there are no mushrooms, user should get an alert telling them to go forage for another mushroom. |1|
+| Click on the 'invite' button to create a new (unsatisfied) friend (with a random default name if none is provided) and add them to the page | 1 |
+
+| Functions                                                                                |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| PURE: `findFriendByName(name, friends)` : return friend object` |1|
+| PURE: `renderMushroom()` : return DOM node` |1|
+| PURE: `renderFriend(friend)` : return DOM node` |1|
+| IMPURE: `displayFriends(friends)` : clears and appends to friend list DOM node`
