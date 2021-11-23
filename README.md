@@ -2,6 +2,10 @@
 
 [Buggy Mushroom Festival](https://github.com/alchemycodelab/buggy-js-mushroom-festival)
 
+## Learning Objectives
+- In response to a user event, mutate a single object in a state array and display the new state to the user (i.e., complete a todo).
+- Describe the difference between a pure and impure function.
+
 ### Live Example:
 https://alchemycodelab.github.io/js-mushroom-festival/
 
