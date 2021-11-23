@@ -1,4 +1,4 @@
-# Deliverable 04 - Mushroom Festival
+# Mushroom Festival
 
 [Buggy Mushroom Festival](https://github.com/alchemycodelab/buggy-js-mushroom-festival)
 
