@@ -9,7 +9,6 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-mushroom-festival/
 
-<img src="https://raw.githubusercontent.com/alchemycodelab/half-baked-js-mushroom-festival/main/assets/mushroom-festival.png" width="1000" height="560" />
 
 # Mushroom Festival
 
