@@ -9,7 +9,7 @@
 ### Live Example:
 https://alchemycodelab.github.io/js-mushroom-festival/
 
-![](https://raw.githubusercontent.comalchemycodelab/half-baked-js-mushroom-festival/main/assets/mushroom-festival.png)
+![](https://raw.githubusercontent.com/alchemycodelab/half-baked-js-mushroom-festival/main/assets/mushroom-festival.png)
 
 # Mushroom Festival
 
