@@ -7,7 +7,7 @@
 [Buggy Mushroom Festival](https://github.com/alchemycodelab/buggy-js-mushroom-festival)
 
 ### Live Example:
-https://alchemycodelab.github.io/js-mushroom-festival/
+https://alchemycodelab.github.io/web-01-mushroom-festival/
 
 
 # Mushroom Festival
