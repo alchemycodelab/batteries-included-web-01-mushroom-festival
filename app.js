@@ -30,6 +30,30 @@ const friendData = [
     },
 ];
 
+
+addFriendButton.addEventListener('click', () => {
+    // get the name from the input
+    // create a new friend object
+    
+    // push it into the friends state array, passed in as an argument
+
+    // reset the input
+    // display all the friends (use a function here)
+});
+
+
+addMushroomButton.addEventListener('click', () => {
+    if (Math.random() > .5) {
+        alert('found a mushroom!');
+
+        mushroomCount++;
+        displayMushrooms();
+    } else {
+        alert('no luck!');
+    }
+});
+
+
 function displayFriends() {
     // clear out the friends in DOM
 
@@ -59,29 +83,6 @@ function displayMushrooms() {
         // for each mushroom in your mushroom state, render and append a mushroom
     }
 }
-
-
-addFriendButton.addEventListener('click', () => {
-    // get the name from the input
-    // create a new friend object
-    
-    // push it into the friends state array, passed in as an argument
-
-    // reset the input
-    // display all the friends (use a function here)
-});
-
-
-addMushroomButton.addEventListener('click', () => {
-    if (Math.random() > .5) {
-        alert('found a mushroom!');
-
-        mushroomCount++;
-        displayMushrooms();
-    } else {
-        alert('no luck!');
-    }
-});
 
 displayFriends();
 displayMushrooms();
