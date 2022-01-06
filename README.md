@@ -29,4 +29,4 @@ https://alchemycodelab.github.io/web-01-mushroom-festival/
 | :----------------------------------------------------------------------------------- | ----------: |
 | PURE with TDD: `renderMushroom()` : return DOM node` |1|
 | PURE: `renderFriend(friend)` : return DOM node` |1|
-| IMPURE: `displayFriends(friends)` : clears and appends to friend list DOM node` | 1|
+| IMPURE: `displayFriends()` : clears and appends to friend list DOM node using friends array in state` | 1|
