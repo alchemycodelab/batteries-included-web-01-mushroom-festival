@@ -27,7 +27,6 @@ https://alchemycodelab.github.io/web-01-mushroom-festival/
 
 | Functions                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| PURE with TDD: `findFriendByName(name, friends)` : return friend object` |(optional)|
 | PURE with TDD: `renderMushroom()` : return DOM node` |1|
 | PURE: `renderFriend(friend)` : return DOM node` |1|
 | IMPURE: `displayFriends(friends)` : clears and appends to friend list DOM node` | 1|
