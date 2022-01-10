@@ -1,6 +1,5 @@
 // import functions and grab DOM elements
 import { renderMushroom, renderFriend } from './render-utils.js';
-import findFriendByName from './data-utils.js';
 
 const friendsEl = document.querySelector('.friends');
 const friendInputEl = document.getElementById('friend-input');
@@ -62,9 +61,7 @@ function displayFriends() {
         const friendEl = renderFriend(friend);
 
         // this is a clickable list, so . . .
-        //     add an event listener to each friend
-        //         on click, go find the clicked friend in state
-        
+        //     add an event listener to each friend        
         //         and if the friend's satisfaction level is below 3 and you have mushrooms left
         //             increment the friends satisfaction and decrement your mushrooms
         //             mushroomCount--;
