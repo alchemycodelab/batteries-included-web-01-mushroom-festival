@@ -64,7 +64,6 @@ function displayFriends() {
         //     add an event listener to each friend        
         //         and if the friend's satisfaction level is below 3 and you have mushrooms left
         //             increment the friends satisfaction and decrement your mushrooms
-        //             mushroomCount--;
         //             then display your friends and mushrooms with the updated state
     
         // append the friendEl to the friends list in DOM
