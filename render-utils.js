@@ -6,14 +6,28 @@ export function renderMushroom() {
 }
 
 export function renderFriend(friend) {
-    // make three elements: an outer div, a place for the name, and a place for an emoji
-    // add friend, name, and emoji classes to the appropriate elements
+    const div = document.createElement('div');
+    const nameEl = document.createElement('p');
+    const emojiEl = document.createElement('p');
 
-    // put the friend's name in the nameEl
-    
-    // for each friend, set the emojiEl's text content to a different emoji depending on their satisfaction level
+    div.classList.add('friend');
+    nameEl.classList.add('name');
+    emojiEl.classList.add('emoji');
 
-    // append the emojiEl and nameEl to the outer div
+    nameEl.textContent = friend.name;
 
-    // return the outer div
+    if (friend.satisfaction === 1) {
+        emojiEl.textContent = '😒';
+    }
+
+    if (friend.satisfaction === 2) {
+        emojiEl.textContent = '😐';
+    }
+
+    if (friend.satisfaction === 3) {
+        emojiEl.textContent = '😀';
+    }
+
+    div.append(nameEl, emojiEl);
+    return div;
 }
