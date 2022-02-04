@@ -1,5 +1,5 @@
 # Mushroom Festival
-
+Use [this template](https://github.com/alchemycodelab/half-baked-web-01-mushroom-festival) to get started.
 ## Learning Objectives
 
 -   In response to a user event, mutate a single object in a state array and display the new state to the user (i.e., complete a todo).
