@@ -34,7 +34,7 @@ https://alchemycodelab.github.io/web-01-mushroom-festival/
 
 ## Stretch goal ideas
 It's so easy to imagine new features for games. 
- - What if there were nut just mushrooms, but also delicious berries? 
+ - What if there were not just mushrooms, but also delicious berries? 
  - What if you could invite friends AND animals to the festival? 
  - What if some friends or animals don't like berries, burt only like mushrooms and vice versa? And if you feed somebody a berry to somebody who doesn't like berries, they get less happy
  - What if friends had _favorite animals_ (i.e., a pet)? And when that animal gets happier, the friend gets happier, and vice versa?
