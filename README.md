@@ -31,3 +31,13 @@ https://alchemycodelab.github.io/web-01-mushroom-festival/
 | displayFriends function displays all friends and adds click handler |   2 |
 | displayMushrooms displays the mushrooms                             |   2 |
 | when page loads users see default friends and mushrooms             |   2 |
+
+## Stretch goal ideas
+It's so easy to imagine new features for games. 
+ - What if there were nut just mushrooms, but also delicious berries? 
+ - What if you could invite friends AND animals to the festival? 
+ - What if some friends or animals don't like berries, burt only like mushrooms and vice versa? And if you feed somebody a berry to somebody who doesn't like berries, they get less happy
+ - What if friends had _favorite animals_ (i.e., a pet)? And when that animal gets happier, the friend gets happier, and vice versa?
+ - What if there were three trees in the forest, and you clicked on one to figure out where a mushroom is (like hide and seek from day 1?)
+ - What if some mushrooms were poison and render differently? And you could only feed them to animals who are resistant to that poison?
+ - etc etc etc
