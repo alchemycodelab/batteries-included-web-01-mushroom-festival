@@ -53,7 +53,7 @@ function displayFriends() {
 
     // for each friend in state . . .
     for (let friend of friendData) {
-        const friendEl = renderFriend(friend);
+        // use renderFriend to make a friendEl
 
         // this is a clickable list, so . . .
         //     add an event listener to each friend
