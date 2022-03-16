@@ -19,18 +19,18 @@ https://alchemycodelab.github.io/web-01-mushroom-festival/
 -   On clicking a friend, if that friend is completely satisfied, they can eat no more mushrooms. Also, if you try to feed a friend and there are no mushrooms, user should get an alert telling them to go forage for another mushroom.
 
 # Mushroom Festival
+| User should be able to . . .                                                         |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo|     1 |
 
-| Deploy Requirements                                   |     |
-| ----------------------------------------------------- | --- |
-| Main branch deployed to Netlify                       | 1   |
-| Open PR from `dev` branch with Netlify deploy preview | 1   |
-
-| Requirements                                                        |     |
-| :------------------------------------------------------------------ | --: |
-| addFriendButton event listener adds new unsatisfied friend          |   2 |
-| displayFriends function displays all friends and adds click handler |   2 |
-| displayMushrooms displays the mushrooms                             |   2 |
-| when page loads users see default friends and mushrooms             |   2 |
+| Events                                                                                |             |
+| :----------------------------------------------------------------------------------- | ----------: |
+| On load, see some mushrooms and default friends on the page                                |        1 |
+| The number of mushrooms should be visible on the table and should update when mushroom state changes.  |        1 |
+| On clicking the 'forage' button, launch an alert telling the user if they found a mushroom. 50% of the time, the user should succeed.  | 2 |
+| On clicking a friend, a mushroom should vanish from the table, and the friend should become more satisfied. Satisfaction level should be visible to the user as different emojis |     2 |
+| On clicking a friend, if that friend is completely satisfied, they can eat no more mushrooms. Also, if you try to feed a friend and there are no mushrooms, user should get an alert telling them to go forage for another mushroom. |1|
+| Click on the 'invite' button to create a new (unsatisfied) friend (with a random default name if none is provided) and add them to the page | 2 |
 
 ## Stretch goal ideas
 It's so easy to imagine new features for games. 
