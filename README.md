@@ -21,7 +21,7 @@ https://alchemycodelab.github.io/web-01-mushroom-festival/
 # Mushroom Festival
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo|     1 |
+| Visit the deployed pages on Netlify, with link in the About section of the Github repo|     1 |
 
 | Events                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
