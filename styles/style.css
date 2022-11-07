@@ -1,4 +1,3 @@
-
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -12,12 +11,12 @@ body {
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
-    
+
     --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
     --gutter: 30px;
     --footer-height: 25px;
-    
+
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
 }
@@ -29,7 +28,6 @@ main {
     align-items: center;
     margin-bottom: calc(var(--footer-height));
 }
-
 
 header {
     display: flex;
@@ -46,7 +44,6 @@ footer {
     box-shadow: var(--shadow);
 }
 
-
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
@@ -56,7 +53,7 @@ h2 {
     margin-right: 20px;
 }
 
-main{
+main {
     height: 100%;
     background-image: url('../assets/background-2.webp');
     background-size: cover;
@@ -104,17 +101,19 @@ main .forest {
     border: solid 1px black;
     background-color: white;
     height: fit-content;
-    padding: 50px;
+    padding: 30px;
     border-radius: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
 }
 
 .header-button:hover {
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     cursor: pointer;
     box-shadow: var(--shadow);
     transform: rotate(2deg);
     background-color: antiquewhite;
-}  
+}
 
 p {
     margin: 0;
@@ -131,7 +130,9 @@ footer {
     box-shadow: var(--shadow);
 }
 
-.left, .middle, .right {
+.left,
+.middle,
+.right {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -147,10 +148,12 @@ footer {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
 }
 
 .friend {
-    background-color:skyblue;
+    background-color: skyblue;
     border: solid 1px black;
     margin: 5px;
     border-radius: 20px;
@@ -172,12 +175,18 @@ footer {
 }
 
 .friend:hover {
-    transition: all .1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     cursor: pointer;
     box-shadow: var(--shadow);
     transform: rotate(8deg);
     background-color: lightblue;
-}  
+}
+
+.add-friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .add-friend input {
     width: 100%;
@@ -201,5 +210,9 @@ footer {
     height: 100px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../assets/porcini.png')
+    background-image: url('../assets/porcini.png');
+}
+
+label {
+    font-size: 2rem;
 }
