@@ -44,8 +44,8 @@ addFriendButton.addEventListener('click', () => {
     // get the name from the input
     // create a new friend object
     // push it into the friends state array, passed in as an argument
-    // reset the input
-    // display all the friends (use a function here)
+    // clear out the input element
+    // clear out and display all the friends (use a function here)
 });
 
 function displayFriends() {
@@ -59,7 +59,7 @@ function displayFriends() {
         //     add an event listener to each friend
         //         and if the friend's satisfaction level is below 3 and you have mushrooms left
         //             increment the friends satisfaction and decrement your mushrooms
-        //             then display your friends and mushrooms with the updated state
+        //             clear out and display the updated friends and mushrooms (hint: displayFriends, displayMushrooms)
 
         // append the friendEl to the friends list in DOM
     }
