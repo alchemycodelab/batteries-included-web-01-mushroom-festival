@@ -29,7 +29,7 @@ The following is required for your assignment to be graded:
 -   PR open from dev to main
 -   PR Passes CI (lint + tests)
 -   PR preview on netlify
--   At least 5 commits (vaguely corresponding to Rubric items below
+-   At least 5 commits (vaguely corresponding to rubric items below)
 
 | Events                                                                                                                                                                                                                               |     |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --: |
